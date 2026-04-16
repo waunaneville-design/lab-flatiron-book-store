@@ -47,7 +47,7 @@ const bookStore = {
 const bookStoreTitle = document.getElementById('header');
 bookStoreTitle.textContent = bookStore.name;
 
-const bookList = document.getElementById('book-list');
+const bookList = document.querySelector('#book-list');
 
 bookStore.books.forEach((book) => {
   const bookContainer = document.createElement('li');
